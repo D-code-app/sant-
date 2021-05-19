@@ -1,0 +1,590 @@
+
+@import url('https://fonts.googleapis.com/css?family=Calibri');
+
+
+*{
+    margin: 0;
+    padding: 0;
+       font-family: cursive;
+}
+
+.contents{
+  height: 100%;
+  letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.header_Class{
+    background-image:radial-gradient(rgba(18, 23, 18, 0.5),rgba(9, 15, 9, 0.5),rgba(26, 29, 26, 0.5)), url(https://i1.wp.com/www.cuisine-blog.fr/wp-content/uploads/2018/10/cover-octobre.jpg?fit=1800%2C1200);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    
+}
+.content-header{
+   display: grid;
+    grid-template-columns: auto auto auto;
+}
+.heading{
+    margin: 20px auto;
+}
+
+.fixed{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; 
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: table;
+}
+ h3{
+    color:  #555;
+      font-size: 30px;
+    margin: auto;
+    text-align: center;
+     font-family: cursive;
+     font-weight:bold;
+     text-transform: uppercase;
+}
+.cont-2 {
+    width:60%;
+    margin: 10px;
+    height: auto;
+    padding: 10px;
+    border-radius: 6px;font-weight: bold;opacity: 1;
+    background-color: rgba(26, 25, 25, 0.9);
+    float: right;
+}
+
+.elem{
+     text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    padding: 20px;
+}
+.dc{
+    color: coral;
+    font-size: 1.2em;
+}
+ p{
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+     padding: 10px;
+     font-size: 20px;
+}.rond{
+    border-radius: 50%;
+    border: 1px solid #eee;
+    padding: 3px 8px;
+    margin: 15px;
+}
+.cont-3{
+    width:50%;
+    margin: 10px;
+   height: auto;
+    border-radius: 6px;font-weight: bold;opacity: 1;
+    background-color: rgba(26, 25, 25, 0.9);
+}
+.divider{
+    width: 250px; height: 5px;
+    background-color: aqua;
+    margin: 10px auto;
+}
+#MonH1, .content-header{
+    text-align: center;
+    height: 200px;
+}
+#MonH1 h1{
+    color: coral;
+    font-size: 35px;
+    font-family: 'Quicksand', sans-serif;
+   margin: 20px auto;
+}
+.My100TE{
+    color: #555;
+    font-family:cursive;
+    font-weight: bold;
+    letter-spacing: normal;
+    font-size: 90px;
+      text-shadow:3px 3px #ccc;
+}
+.my100{
+     color: #0775ed;
+    font-family:cursive;
+    font-weight: bold;
+    letter-spacing: normal;
+    font-size: 80px;
+    text-shadow:3px 3px  #ccc;
+}
+
+.lignes{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+.lign{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.l1{
+    width: 300px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+.l2{
+    width: 200px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    position: relative;
+    top: 15px;
+}
+.l3{
+    width: 300px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+.l4{
+    width: 200px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    position: relative;
+    top: 15px;
+}
+.btn{
+    background-color: #0775ed;
+    border-style: none;
+    padding: 8px;
+    width: 150px;
+    color:beige;
+    font-weight: bold;
+    font-size: 20px;
+   box-shadow:5px #555;
+    opacity: 1;
+    border-radius: 8px;
+  
+}
+.btn:hover{
+    color:wheat;
+     transition:  0.8s;
+    background-color: #000;
+    transition: all 0.8s;
+     padding: 8px;
+    font-size: 20px;
+    width: 150px;
+}
+
+
+/*Les scroll*/
+
+
+.Img-scroll-1{
+    background-image: url(https://media.houra.fr/ART-IMG-XL/14/15/3588050001514-1.jpg);height: 300px;
+}
+.Img-scroll-2{
+    background-image: url(https://img-3.journaldesfemmes.fr/Css89iNXVS2FQ5c3TR8gI1pwrN8=/910x607/smart/409e102e633d42759746f73e286431a3/ccmcms-jdf/11057068.jpg);height: 300px;
+}
+
+.Img-scroll-3{
+    background-image: url(https://www.effea-minceur.com/blog/wp-content/uploads/2018/09/Jus-de-fruits-frais-maison-650x433.jpg);height: 300px;
+}
+.Img-scroll-4{
+    background-image: url(../image/tomate.jpg);
+    height: 300px;
+}
+
+/*les grids*/
+
+.grids_contents{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.Child-grids{
+    margin: 20px;
+    border: 1px solid #9d9c9c;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px #555;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+.Child-grids h4{
+    text-align: center;color: #031221;font-size: 18px;
+}
+
+.item-grid{
+      width: 100%;
+    font-family:'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+
+.fa-lemon{
+  font-size: 70px;
+    color: rgba(245, 228, 18, 0.97);
+}
+.fa-pepper-hot{
+     font-size: 70px;
+    color: rgba(18, 245, 44, 0.97);
+}
+.fa-seedling{
+     font-size: 70px;
+    color: rgba(245, 53, 18, 0.97);
+}
+.Fruit_Div{
+    padding: 40px;
+    letter-spacing: normal;
+      text-align:justify;
+}
+.pad{
+    padding: 40px;
+}
+
+.header{
+        display: none;
+    }
+
+/*.footer*/
+
+.footer{
+    text-align: center;
+  background:url(https://static.passeportsante.net/i90774-.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.pubfooter{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    background: #eee;
+}
+.topnav {
+overflow: hidden;
+background-color: inherit;
+}
+
+.topnav a {
+float: left;
+display: block;
+color: beige;
+text-align: center;
+padding: 10px 12px;
+text-decoration: none;
+font-size: 17px;
+text-transform: capitalize;
+}
+
+.topnav a:hover {
+background-color:  #555;
+color: beige;
+}
+
+.topnav a.active {
+background-color:  #555;
+color: white;
+}
+
+.topnav .icon {
+display: none;
+}
+.content {
+padding: 16px;
+}
+
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+color: #000;
+background-color: #0775ed;
+box-shadow: 0px 0px  8px rgba(40, 40, 40, 0.78);
+
+}
+
+.sticky + .content {
+padding-top: 102px;
+}
+ 
+
+
+
+
+  .header a {
+    color: #000;
+  }
+  
+  /* header */
+  
+  .header {
+    background-color: #0775ed;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .header li a {
+    display: block;
+    padding: 10px 10px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: #000;
+      color: #fff;
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  /* menu */
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  
+  /* menu icon */
+  
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menu-icon .navicon {
+    background: #fff;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: #fff;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  /* menu btn */
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 350px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+
+
+/*style pub*/
+.pub{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+    background:url(https://static.passeportsante.net/i90774-.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pubcontent{
+  
+    height: 200px;
+    width: auto;
+    margin: 5px;
+    border-radius: 5px;
+}
+.img1{
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd7E8aAC4CUJWHIy3Ar0dLgkSMHQb8mkXHTg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+.img2{
+   background-image: url(https://circulairehttps-smisolutionsmark.netdna-ssl.com/wp-content/uploads/5-bonnes-raisons-pour-boire-un-verre-deau-au-reveil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+.img3{
+   background-image: url(https://www.alphapole.com/wp-content/uploads/verre-deau-sur-fond-noir.jpeg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+.divcontent{
+     width: 50%;
+    height: 200px;
+    float:right;
+    background:#555;
+    color: #f4f4f4;
+    text-align: center;
+
+}
+.divcontent p{
+    text-align: center;
+}
+#contact{
+    padding: 50px;
+    background: #555;
+    color: beige;
+}
+
+/*medias contents*/
+@media screen and (max-width: 640px){
+ .grids_contents, .pubfooter{
+    display: grid;
+    grid-template-columns: auto;
+}
+      Fruit_Div{
+    padding: 40px;
+    letter-spacing: normal;
+      text-align:left;
+}
+    .cont-3{
+    width:50%;
+    margin: 20px;
+}
+    .cont-2{
+    width:50%;
+    margin: 20px;
+}
+    #header{
+        display:inline;
+    }
+     .btn{
+          display: none;
+      }
+      #mymenu{
+          display: none;
+      }
+    .header{
+        display: block;
+        height:auto;
+    }
+    .lignes{
+        display: none;
+    }
+     .lign{
+        display: none;
+    }
+    #MonH1{
+        margin-top: 50px;
+    }
+    .header_Class{
+        height: 50%;
+    }
+    #contents{
+        text-align: justify-all;
+        line-height: normal;
+    }
+    .pub{
+    display: grid;
+    grid-template-columns: auto;
+    }
+        
+}
+  /* 48em = 768px */
+  
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+     
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+/*
+    .header .menu-icon {
+      display: none;
+    }
+      .lignes{
+        display: none;
+    }
+     .lign{
+        display: none;
+    }
+*/
+      .pub, .pubfooter{
+    display: grid;
+    grid-template-columns: auto auto;
+    }
+      .pubcontent{
+    border: 1px solid #111;
+    height: auto;
+    width: auto;
+    margin: 5px;
+    border-radius: 5px;
+}
+      
+  }
+
+  
